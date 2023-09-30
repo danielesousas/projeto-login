@@ -1,0 +1,62 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(20, 147, 222), rgb(17, 50, 75));
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.786);
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+
+.inputBox {
+    position: relative;
+    width: 100%;
+    letter-spacing: 2px;
+
+}
+
+fieldset {
+    border: 2px solid dodgerblue;
+}
+
+input {
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 5px;
+
+}
+
+legend {
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+
+#btn  {
+    background-color: purple;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    cursor: pointer;
+    
+}
+
+#btn:hover {
+    background-color: rgb(39, 39, 186) ;
+    letter-spacing: 5px;
+}
